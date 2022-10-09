@@ -10,13 +10,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+<script
+      src="https://kit.fontawesome.com/85115221cd.js"
+      crossorigin="anonymous"></script>
 </head>
 <body>
+          <!-- Header Of The Page -->
+
     <section class="header">
         <nav>
             <a href="index.html"><img src="image/logo.jpg"></a>
             <div class="nav-links" id="navLinks">
-                <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
@@ -26,7 +31,7 @@
                 </ul>
 
             </div>
-            <i class="fa-regular fa-bars"onclick="showMenu()"></i>
+            <i class="fa-solid fa-bars"onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
             <h1>World's First Chef Bunny</h1>
@@ -36,7 +41,37 @@
         </div>
     </section>
 
+         <!-- Course -->
 
+         <section class="course">
+             <h1> Courses We Offer </h1> 
+             <p>
+                BunBun Courses is all about originality and promoting individual learning and focus.</p>
+         </section>
+         <div class="row">
+             <div class="course-col">
+                 <h3>Intermediate</h3>
+                 <p>BunBun Courses brings you the “Combo Qualification” program, which can pave your pathway towards an early career! This program is equivalent to the Intermediate level of education in Pakistan as per accreditation and approval by the Inter Board Committee of Chairman (IBCC), Government of Pakistan. Accredited by Sindh Board of Technical Education, this course is designed for aspiring young individuals, interested in diversified career opportunities.</p>
+             </div>
+             <div class="course-col">
+                <h3>Degree</h3>
+                <p>This course covers intensive skill-based guided training in the field of culinary education. The comprehensive and intensive curriculum will help you develop industry favoured skills in culinary artistry, including food production skills, product creativity, multitasking skills, interpersonal and presentation skills, supervisory, leadership and team-building skills which will strengthen your training and prepare you for a successful career in the national and international hospitality industry.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>The unique feature of this course is that the student can complete their 2 years of intermediate along with an internationally recognized qualification of Level 2 Diploma in Patisserie and Confectionery Arts, awarded by CTH (Confederation of Tourism and Hospitality Management)-UK. Although this additional qualification is completely optional, it can significantly increase your chances of starting an early career in the global hospitality industry. </p>
+            </div>
+         </div>
+
+
+
+
+
+
+
+
+
+         <!-- Javascript For The Toggle Menu -->
 <script>
     var navLinks = document.getElementById("navLinks")
     function showMenu(){
